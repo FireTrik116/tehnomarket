@@ -1,0 +1,87 @@
+/* Цвета */
+:root{
+--basic-background-color:#f1F5F7;
+--basic-color-red:#EE3643;
+--basic-color-green:#63A63E;
+--basic-color-greyone:#293449;
+--basic-color-black:#000000;
+--basic-color-greylight:#C5C5C5;
+--basic-color-white:#FFFFFF;
+--basic-color-ylellow:#FFBF47;
+--basic-color-blue:#3BBCE3;
+--basic-color-ilac:#DC91D8;
+--basic-color-greenlight:#8ED78F;
+--basic-color-yellowlight:#FFD180;
+--basic-color-seccuess:#5FBB2D;
+--basic-color-error:#BA2732;
+--basic-color-lightgray: linear-gradient(#ffffff,#EAEAEA);
+--basic-color-greytwo:#32425C;
+--basic-color-greythree:#212A3A;
+
+--basic-font: "Cupurum", "Arial", sans-serif;
+--second-font: "PTSans", "Tahoma", sans-serif;
+}
+
+/* Шрифты */
+
+@font-face {
+  font-family: "Cupurum";
+  font-size: 700;
+  font-style: normal;
+  src: local("Cupurum"), url("../fonts/Cuprum-Bold.woff2") format("woff2"),
+  url("../fonts/Cuprum-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cupurum";
+  font-size: 400;
+  font-style: normal;
+  src: local("Cupurum"), url("../fonts/Cuprum-Regular.woff") format("woff2"),
+  url("../fonts/Cuprum-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-size: 700;
+  font-style: normal;
+  src: local("PTSans"), url("../fonts/PTSans-Bold.woff2") format("woff2"),
+  url("../fonts/PTSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-size: 400;
+  font-style: normal;
+  src: local("PTSans"), url("../fonts/PTSans-Regular.woff2") format("woff2"),
+  url("../fonts/PTSans-Regular.woff") format("woff");
+}
+
+/* БАЗОВАЯ РАЗМЕТКА */
+a {
+  text-decoration: none;
+}
+
+.list
+{
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0 100px;
+  margin: 0 auto;
+}
